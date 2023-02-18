@@ -12,13 +12,14 @@ header {
   font-size: xx-large;
   padding-top: 10px;
   background-image: url(../img/pattern.jpg);
+  color: #2A2B2E;
 }
 header i {
   font-size: 13px;
   display: block;
   text-align: right;
   padding-right: 10px;
-  color: #0081a7;
+  color: #2A2B2E;
 }
 header .navbar {
   background-color: #dad7cd;
@@ -53,10 +54,27 @@ footer {
   width: 100%;
   background-color: #dad7cd;
 }
+footer .tarjetas {
+  background-image: url(../img/pattern.jpg);
+  font-weight: bold;
+  color: #2A2B2E;
+}
+footer .tarjetas p {
+  color: #2A2B2E;
+  font-weight: bold;
+}
+footer .tarjetas .telefonos {
+  font-family: Holtwood One SC;
+  display: block;
+  color: #2A2B2E;
+}
+footer .tarjetas img {
+  margin-bottom: 10px;
+}
 footer ul {
-  padding: 0%;
   display: flex;
   justify-content: space-evenly;
+  background-color: #dad7cd;
 }
 footer ul li {
   font-size: x-large;
@@ -68,7 +86,7 @@ footer ul li a {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: bold;
-  color: #3a5a40;
+  color: #2A2B2E;
 }
 footer ul .facebook i {
   font-size: x-large;
@@ -87,11 +105,10 @@ footer ul .twitter i {
   color: #1DA1F2;
 }
 footer .textoFoot {
-  margin-top: 25px;
-  border-bottom: 0.5px dotted black;
   background-color: #dad7cd;
   width: 100%;
   font-size: 10px;
+  color: #2A2B2E;
 }
 
 /* PRODUCTOS */
@@ -103,7 +120,7 @@ h2 {
 .productos p {
   font-family: "Oswald", sans-serif;
   font-size: large;
-  background-color: #F1FAEE;
+  background-color: #f07167;
   border-radius: 4px;
 }
 

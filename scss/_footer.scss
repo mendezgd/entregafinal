@@ -6,10 +6,30 @@ footer {
     width: 100%;
     background-color: $paleta3;
 
+    .tarjetas {
+        background-image: url(../img/pattern.jpg);
+        font-weight: bold;
+        color: #2A2B2E;
+        p {
+            color: #2A2B2E;
+            font-weight: bold;
+        }
+        .telefonos {
+            font-family: Holtwood One SC;
+            display: block;
+            color: #2A2B2E;
+            
+        }
+
+        img {
+            margin-bottom: 10px;
+        }
+    }
+
     ul {
-        padding: 0%;
         display: flex;
         justify-content: space-evenly;
+        background-color: $paleta3;
 
         li {
             font-size: x-large;
@@ -17,7 +37,7 @@ footer {
 
             a {
                 @include links;
-                color: #3a5a40;
+                color: #2A2B2E;
             }
         }
 
@@ -44,10 +64,9 @@ footer {
     }
 
     .textoFoot {
-        margin-top: 25px;
-        border-bottom: 0.5px dotted black;
         background-color: $paleta3;
         width: 100%;
         font-size: 10px;
+        color: #2A2B2E;
     }
 }
