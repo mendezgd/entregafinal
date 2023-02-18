@@ -9,16 +9,18 @@ footer {
     .tarjetas {
         background-image: url(../img/pattern.jpg);
         font-weight: bold;
-        color: #2A2B2E;
+        color: $paleta6;
+
         p {
-            color: #2A2B2E;
+            color: $paleta6;
             font-weight: bold;
         }
+
         .telefonos {
             font-family: Holtwood One SC;
             display: block;
-            color: #2A2B2E;
-            
+            color: $paleta6;
+
         }
 
         img {
@@ -37,7 +39,6 @@ footer {
 
             a {
                 @include links;
-                color: #2A2B2E;
             }
         }
 
@@ -67,6 +68,6 @@ footer {
         background-color: $paleta3;
         width: 100%;
         font-size: 10px;
-        color: #2A2B2E;
+        color: $paleta6;
     }
 }
