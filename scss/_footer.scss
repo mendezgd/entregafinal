@@ -1,0 +1,53 @@
+/* FOOTER INCLUYE MIXING EN SOCIALES*/
+footer {
+    display: block;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    background-color: $paleta3;
+
+    ul {
+        padding: 0%;
+        display: flex;
+        justify-content: space-evenly;
+
+        li {
+            font-size: x-large;
+            color: $paleta4;
+
+            a {
+                @include links;
+                color: #3a5a40;
+            }
+        }
+
+        .facebook i {
+            font-size: x-large;
+            color: #3b5998;
+        }
+
+        .you i {
+            font-size: x-large;
+            color: #FF0000;
+        }
+
+        .instagram i {
+            font-size: x-large;
+            color: #ee640e;
+        }
+
+        .twitter i {
+            font: x-large;
+            color: #1DA1F2;
+        }
+
+    }
+
+    .textoFoot {
+        margin-top: 25px;
+        border-bottom: 0.5px dotted black;
+        background-color: $paleta3;
+        width: 100%;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,170 @@
+/* BASE */
+@import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Lobster&family=Oswald:wght@200&family=Press+Start+2P&family=Special+Elite&display=swap");
+body {
+  background-color: #a3b18a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x: hidden;
+}
+
+/* HEADER INCLUYE MIXING EN NAV*/
+header {
+  font-family: Holtwood One SC;
+  font-size: xx-large;
+  padding-top: 10px;
+  background-image: url(../img/pattern.jpg);
+}
+header i {
+  font-size: 13px;
+  display: block;
+  text-align: right;
+  padding-right: 10px;
+  color: #0081a7;
+}
+header .navbar {
+  background-color: #dad7cd;
+}
+header .navbar a {
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+header .navbar a:hover {
+  color: #DE3C4B;
+  text-decoration-line: underline;
+}
+
+main {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+main img {
+  width: 1280px;
+  height: 960px;
+}
+
+/* FOOTER INCLUYE MIXING EN SOCIALES*/
+footer {
+  display: block;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  background-color: #dad7cd;
+}
+footer ul {
+  padding: 0%;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer ul li {
+  font-size: x-large;
+  color: #a3b18a;
+}
+footer ul li a {
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3a5a40;
+}
+footer ul .facebook i {
+  font-size: x-large;
+  color: #3b5998;
+}
+footer ul .you i {
+  font-size: x-large;
+  color: #FF0000;
+}
+footer ul .instagram i {
+  font-size: x-large;
+  color: #ee640e;
+}
+footer ul .twitter i {
+  font: x-large;
+  color: #1DA1F2;
+}
+footer .textoFoot {
+  margin-top: 25px;
+  border-bottom: 0.5px dotted black;
+  background-color: #dad7cd;
+  width: 100%;
+  font-size: 10px;
+}
+
+/* PRODUCTOS */
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
+}
+
+.productos p {
+  font-family: "Oswald", sans-serif;
+  font-size: large;
+  background-color: #F1FAEE;
+  border-radius: 4px;
+}
+
+.productos img {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.productos img:hover {
+  -webkit-filter: brightness(100%);
+}
+
+img {
+  border-radius: 4px;
+}
+
+/* REQUISITOS */
+.requisitos {
+  font-size: medium;
+  text-align: left;
+  margin: 5%;
+  background-color: #dad7cd;
+  border: black dotted 2px;
+}
+
+.listaReq {
+  margin: 5px;
+}
+
+/* DONDE */
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.form {
+  text-align: left;
+}
+
+.tel {
+  margin-bottom: 20px;
+}
+.tel i {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.mapa p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: oswald;
+}
+
+/* GALERIA */
+.videos {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

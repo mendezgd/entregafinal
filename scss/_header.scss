@@ -1,0 +1,43 @@
+/* HEADER INCLUYE MIXING EN NAV*/
+header {
+    font-family: Holtwood One SC;
+    font-size: xx-large;
+    padding-top: 10px;
+    background-image: url(../img/pattern.jpg);
+
+    i {
+        font-size: 13px;
+        display: block;
+        text-align: right;
+        padding-right: 10px;
+        color: $paleta1;
+        
+    }
+
+    .navbar {
+
+        background-color: $paleta3;
+
+        a {
+
+            @include links;
+
+            &:hover {
+
+                color: #DE3C4B;
+                text-decoration-line: underline;
+            }
+        }
+    }
+}
+
+main {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    img {
+        width: 1280px;
+        height: 960px;
+    }
+}
