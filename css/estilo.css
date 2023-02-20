@@ -6,6 +6,24 @@ body {
   overflow-x: hidden;
 }
 
+.oferta h5 {
+  font-family: Holtwood One SC;
+  color: #dad7cd;
+  width: 100%;
+  height: auto;
+}
+.oferta p {
+  color: #dad7cd;
+  font-weight: bold;
+  font-size: small;
+  width: 100%;
+  height: auto;
+}
+.oferta img {
+  width: 100%;
+  height: auto;
+}
+
 /* HEADER INCLUYE MIXING EN NAV*/
 header {
   font-family: Holtwood One SC;
