@@ -1,19 +1,22 @@
 .oferta {
-    h5 {
+    .card-header{
+        background-color: $paleta3;
+        color: $paleta6;
+        font-size: 20px;
         font-family: Holtwood One SC;
-        color: $paleta3;
-        width: 100%;
-        height: auto;
+    }
+    .card-body {
+        background-image: url(../img/oferta1.jpg);
+        background-size: cover;
+        
     }
     p {
         color: $paleta3;
-        font-weight: bold;
-        font-size: small;
-        width: 100%;
-        height: auto;
+        font-family: oswald;
+        font-size: larger;
     }
-    img {
-        width: 100%;
-        height: auto;
+    h5 {
+        color: $paleta3;
+        font-family: Holtwood One SC;
     }
 }

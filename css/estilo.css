@@ -6,22 +6,24 @@ body {
   overflow-x: hidden;
 }
 
-.oferta h5 {
+.oferta .card-header {
+  background-color: #dad7cd;
+  color: #2A2B2E;
+  font-size: 20px;
   font-family: Holtwood One SC;
-  color: #dad7cd;
-  width: 100%;
-  height: auto;
+}
+.oferta .card-body {
+  background-image: url(../img/oferta1.jpg);
+  background-size: cover;
 }
 .oferta p {
   color: #dad7cd;
-  font-weight: bold;
-  font-size: small;
-  width: 100%;
-  height: auto;
+  font-family: oswald;
+  font-size: larger;
 }
-.oferta img {
-  width: 100%;
-  height: auto;
+.oferta h5 {
+  color: #dad7cd;
+  font-family: Holtwood One SC;
 }
 
 /* HEADER INCLUYE MIXING EN NAV*/
