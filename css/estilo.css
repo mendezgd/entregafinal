@@ -141,7 +141,24 @@ img {
   border-radius: 4px;
 }
 
-/* REQUISITOS */ /* DONDE */
+/* REQUISITOS */
+.requi {
+  margin-bottom: 20px;
+}
+.requi .card1 {
+  padding: 5px;
+}
+.requi .card2 {
+  padding: 5px;
+}
+.requi .card3 {
+  padding: 5px;
+}
+.requi .card4 {
+  padding: 5px;
+}
+
+/* DONDE */
 iframe {
   width: 100%;
   height: 400px;
