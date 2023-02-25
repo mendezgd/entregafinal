@@ -109,6 +109,9 @@ footer ul li a {
   font-weight: bold;
   color: #2A2B2E;
 }
+footer ul li a:hover {
+  color: #0081a7;
+}
 footer ul .facebook i {
   font-size: x-large;
   color: #3b5998;
@@ -141,7 +144,7 @@ h2 {
 .productos p {
   font-family: "Oswald", sans-serif;
   font-size: large;
-  background-color: #f07167;
+  background-color: #dad7cd;
   border-radius: 4px;
 }
 

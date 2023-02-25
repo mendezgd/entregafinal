@@ -39,6 +39,10 @@ footer {
 
             a {
                 @include links;
+                &:hover {
+
+                    color: $paleta1;
+                }
             }
         }
 
