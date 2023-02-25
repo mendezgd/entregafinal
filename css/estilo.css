@@ -17,7 +17,7 @@ body {
   background-size: cover;
 }
 .oferta p {
-  color: #dad7cd;
+  color: #F4F7F5;
   font-family: oswald;
   font-size: larger;
 }
@@ -167,6 +167,9 @@ img {
 /* REQUISITOS */
 .requi {
   margin-bottom: 20px;
+}
+.requi .card-body {
+  background-color: #dad7cd;
 }
 .requi .card1 {
   padding: 5px;
